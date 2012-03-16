@@ -4,7 +4,7 @@
   <title><![CDATA[visualyze.it]]></title>
   <link href="http://visualyze-it.github.com/atom.xml" rel="self"/>
   <link href="http://visualyze-it.github.com/"/>
-  <updated>2012-03-16T17:45:26+10:00</updated>
+  <updated>2012-03-16T17:46:12+10:00</updated>
   <id>http://visualyze-it.github.com/</id>
   <author>
     <name><![CDATA[visualyze.it]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Data Mining for Merchandising Intelligence]]></title>
-    <link href="http://visualyze-it.github.com/blog/2012/03/15/dive-in-boots-and-all/"/>
+    <link href="http://visualyze-it.github.com/blog/2012/03/15/merchandising-intelligence/"/>
     <updated>2012-03-15T17:04:00+10:00</updated>
-    <id>http://visualyze-it.github.com/blog/2012/03/15/dive-in-boots-and-all</id>
+    <id>http://visualyze-it.github.com/blog/2012/03/15/merchandising-intelligence</id>
     <content type="html"><![CDATA[<p>Here at visualyze.it we have developed a really interesting data-set tracking the price history
 of tens of thousands of products from high-end merchants like Barneys and Saks.  The
 data covers apparel, jewelry, beauty products, homewares and food items.</p>
