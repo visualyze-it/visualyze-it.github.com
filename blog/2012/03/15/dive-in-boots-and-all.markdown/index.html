@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>visualyze.it</title>
+  <title>Data Mining for Merchandizing Intelligence - visualyze.it</title>
   <meta name="author" content="visualyze.it">
 
   
@@ -19,7 +19,7 @@ of tens of thousands of products from high-end &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://visualyze-it.github.com">
+  <link rel="canonical" href="http://visualyze-it.github.com/blog/2012/03/15/dive-in-boots-and-all.markdown">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -63,15 +63,12 @@ of tens of thousands of products from high-end &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/03/15/dive-in-boots-and-all.markdown/">Data Mining for Merchandizing Intelligence</a></h1>
+      <h1 class="entry-title">Data Mining for Merchandizing Intelligence</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@ of tens of thousands of products from high-end &hellip;">
   </header>
 
 
-  <div class="entry-content">Here at visualyze.it we have developed a really interesting data-set tracking the price history
+<div class="entry-content">Here at visualyze.it we have developed a really interesting data-set tracking the price history
 of tens of thousands of products from high-end merchants like Barneys and Saks.  The
 data covers apparel, jewelry, beauty products, homewares and food items.
 
@@ -172,22 +169,16 @@ behavior can tell us a lot about the dynamics of a market segment.
 
 
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/15/dive-in-boots-and-all/">Data Mining for Merchandising Intelligence</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Guy Carpenter</span></span>
+
+      
 
 
 
@@ -200,96 +191,31 @@ behavior can tell us a lot about the dynamics of a market segment.
 
 
 <time datetime="2012-03-15T17:04:00+10:00" pubdate data-updated="true">Mar 15<span>th</span>, 2012</time>
-        
-      </p>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Here at visualyze.it we have developed a really interesting data-set tracking the price history
-of tens of thousands of products from high-end merchants like Barneys and Saks.  The
-data covers apparel, jewelry, beauty products, homewares and food items.</p>
-
-<p>This gives us a unique ability to analyze trends across many different market segments, merchants and
-brands&#8230;  Let&#8217;s talk about boots for men.</p>
-
-<p><a href="/images/2012-03-15/mens_boots.png">
-<img src="/images/2012-03-15/mens_boots.png" title="&#34;Mens Boots&#34;" alt="&#34;Mens Boots&#34;">
-</a></p>
-
-<p>The visualyze.it price history data tracks the price fluctuations of several hundred pairs of men&#8217;s boots
-available from the major high-end retailers.  The figure below shows a the raw individual
-price vectors over December 2011 and January 2012.</p>
-
-<p><a href="/images/2012-03-15/mens_boots_product_price_vectors.png">
-<img src="/images/2012-03-15/mens_boots_product_price_vectors.png" title="&#34;Mens Boots - Product Price Vectors&#34;" alt="&#34;Mens Boots - Product Price Vectors&#34;">
-</a></p>
-
-<p>You can click on the graph to view it in full detail, but you know it&#8217;s still
-pretty much impenetrable; I&#8217;m including it to give you feel
-for the depth of the raw data set.  Even in this dense forest of data
-it is obvious that something interesting is happening in the pre-Christmas period;
-prices drop very suddenly.  A few of the most expensive items are discounted
-3 successive times in December.</p>
-
-<p>So let&#8217;s dig a little deeper and see what more we can learn by looking at the same
-data, this time aggregated by brand.  The figure below charts the mean price price of
-men&#8217;s boots by brand over a full year.</p>
-
-<p><a href="/images/2012-03-15/mens_boots_mean_price_by_brand.png">
-<img src="/images/2012-03-15/mens_boots_mean_price_by_brand.png" title="&#34;Mens Boots - Price Trend by Brand&#34;" alt="&#34;Mens Boots - Price Trend by Brand&#34;">
-</a></p>
-
-<p>There are two things that spring out of this; that boot prices are highly stratified by brand, with top-end brands like Rick Owens, Ann Dumeulemeester and Bruno Cucinelli commanding double the price of their competitors, and that men&#8217;s boots are fiercely discounted in the Christmas season.</p>
-
-<p>The degree of discounting for the high-end brands is impressive - around 50% mean price drop.  It would
-be interesting to compare this aggregated by merchant instead of brand, to see if specific merchants are
-driving this discounting.  The following figure shows the mean price for a pair of men&#8217;s boots at
-a number of major retailers over the course of year.</p>
-
-<p><a href="/images/2012-03-15/mens_boots_mean_price_by_merchant.png">
-<img src="/images/2012-03-15/mens_boots_mean_price_by_merchant.png" title="&#34;Mens Boots - Mean Price by Merchant&#34;" alt="&#34;Mens Boots - Mean Price by Merchant&#34;">
-</a></p>
-
-<p>You can see here that the seasonal price variation for men&#8217;s boots at Barneys and Dolce &amp; Gabbana are quite severe.  No so with Gorsuch, Saks and Park and Bond.</p>
-
-<p>The Dolce &amp; Gabbana pricing is fairly interesting, and worthy of a bit more exploration.  This next figure is
-a bit more complicated, but you&#8217;ve come this far, so stick with me.  For this figure I&#8217;ve included the entire stock
-range from Dolce &amp; Gabbana, not just men&#8217;s boots.  Since we maintain a long-term price trajectory
-on all of the products we track, we can compare the current price to the standard price, and directly compute
-the discount rate at any point in time.
-The graph below shows the number of products (reflected by the size of each circle) at each
-discount rate over the course of the last year.</p>
-
-<p><a href="/images/2012-03-15/dolce_gabbana_all_stock_discounting.png">
-<img src="/images/2012-03-15/dolce_gabbana_all_stock_discounting.png" title="&#34;Dolce & Gabanna - All Stock - Discounting&#34;" alt="&#34;Dolce & Gabanna - All Stock - Discounting&#34;">
-</a></p>
-
-<p>This figure gives a really clear picture of the Dolce &amp; Gabanna pricing strategy;
-in July 2011, the majority of stock items at Dolce &amp; Gabbana
-were discounted to 60% of MSRP for a few weeks followed by a further reduction to 50% MSRP.  Prices
-returned to normal with no discounting at all until the first week of December, when again most stock items were
-reduced to 60% of MSRP, this time for several months.  During this time a small number of items were
-reduced to 55% and 50% MRSP.  Finally in February most stock was reduced to 50% MSRP.  It is also
-evident that the total number of stock items available has been severely reduced during February.</p>
-
-<p>The point here isn&#8217;t just to demonstrate that Dolce &amp; Gabbana
-respect the mantra of inventory turnover.  Clearly they do!
-My real point is that long-term monitoring and analysis of merchant
-behavior can tell us a lot about the dynamics of a market segment.</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://visualyze-it.github.com/blog/2012/03/15/dive-in-boots-and-all.markdown/" data-via="" data-counturl="http://visualyze-it.github.com/blog/2012/03/15/dive-in-boots-and-all.markdown/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/03/15/dive-in-boots-and-all/" title="Previous Post: Data Mining for Merchandising Intelligence">&laquo; Data Mining for Merchandising Intelligence</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -314,6 +240,7 @@ behavior can tell us a lot about the dynamics of a market segment.</p>
 
   
 </aside>
+
 
     </div>
   </div>
