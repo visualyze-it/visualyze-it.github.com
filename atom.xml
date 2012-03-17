@@ -4,7 +4,7 @@
   <title><![CDATA[visualyze.it]]></title>
   <link href="http://visualyze-it.github.com/atom.xml" rel="self"/>
   <link href="http://visualyze-it.github.com/"/>
-  <updated>2012-03-16T17:58:37+10:00</updated>
+  <updated>2012-03-17T11:12:27+10:00</updated>
   <id>http://visualyze-it.github.com/</id>
   <author>
     <name><![CDATA[visualyze.it]]></name>
@@ -31,8 +31,9 @@ brands.</p>
 </a></p>
 
 <p>The visualyze.it price history data tracks the price fluctuations of several hundred pairs of men&#8217;s boots
-available from the major high-end retailers.  The figure below shows a the raw individual
-price vectors through December 2011 and January 2012.</p>
+available from the major high-end retailers.  The figure below shows raw product
+price vectors for December 2011 and January 2012.  Each line represents the trajectory
+of the price of one product.</p>
 
 <p><a href="http://visualyze-it.github.com/images/2012-03-15/mens_boots_product_price_vectors.png">
 <img src="http://visualyze-it.github.com/images/2012-03-15/mens_boots_product_price_vectors.png" title="&#34;Mens Boots - Product Price Vectors&#34;" alt="&#34;Mens Boots - Product Price Vectors&#34;">
