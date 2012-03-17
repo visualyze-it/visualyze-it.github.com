@@ -4,7 +4,7 @@
   <title><![CDATA[visualyze.it]]></title>
   <link href="http://visualyze-it.github.com/atom.xml" rel="self"/>
   <link href="http://visualyze-it.github.com/"/>
-  <updated>2012-03-17T11:12:27+10:00</updated>
+  <updated>2012-03-17T11:15:38+10:00</updated>
   <id>http://visualyze-it.github.com/</id>
   <author>
     <name><![CDATA[visualyze.it]]></name>
@@ -56,7 +56,7 @@ The figure below charts the mean price price of men&#8217;s boots by brand over 
 <p>There are two things that show clearly here; that boot prices are highly stratified by brand, with top-end brands like Rick Owens, Ann Dumeulemeester and Bruno Cucinelli commanding double the price of their competitors, and that men&#8217;s boots are fiercely discounted in the Christmas season.</p>
 
 <p>The degree of discounting for the high-end brands is impressive - around 50% mean price drop.  It would
-be interesting to look at the price by merchant to see if specific merchants are
+be interesting to look at the price by merchant to see if specific retailers are
 driving this discounting.  The following figure shows the mean price for a pair of men&#8217;s boots at
 a number of major high-end retailers over the course of year.  Click to view full size.</p>
 
@@ -68,11 +68,11 @@ a number of major high-end retailers over the course of year.  Click to view ful
 
 <p>The Dolce &amp; Gabbana pricing really extreme, and worthy of a bit more exploration.  This next figure is
 a bit more complicated, but you&#8217;ve come this far, so stick with me.  For this figure I&#8217;ve included the entire stock
-range from Dolce &amp; Gabbana, not just men&#8217;s boots.  Since we maintain a long-term price trajectory
+range from Dolce &amp; Gabbana, not just men&#8217;s boots.  Since we maintain a long-term price history
 on all of the products we track, we can easily determine the &#8220;standard price&#8221; for any item, and so
 compute the discount rate for any point in time.
 The graph below shows the number of products (reflected by the size of each circle) at each
-discount rate over the course of the last year.</p>
+discount level over the course of the last year.</p>
 
 <p><a href="http://visualyze-it.github.com/images/2012-03-15/dolce_gabbana_all_stock_discounting.png">
 <img src="http://visualyze-it.github.com/images/2012-03-15/dolce_gabbana_all_stock_discounting.png" title="&#34;Dolce & Gabanna - All Stock - Discounting&#34;" alt="&#34;Dolce & Gabanna - All Stock - Discounting&#34;">
@@ -82,7 +82,7 @@ discount rate over the course of the last year.</p>
 in July 2011, the majority of stock items at Dolce &amp; Gabbana
 were discounted to 60% of MSRP for a few weeks followed by a further reduction to 50% MSRP.  Prices
 returned to normal with no discounting at all until the first week of December, when again most stock items were
-reduced to 60% of MSRP, this time for several months.  During this time a small number of items were
+reduced to 60% of MSRP, this time for several months.  At the same time a small number of items were
 reduced to 55% and 50% MRSP.  Finally in February most stock was reduced to 50% MSRP.  It is also
 evident that the total number of stock items available has been severely reduced during February.</p>
 
