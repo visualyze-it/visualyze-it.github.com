@@ -4,7 +4,7 @@
   <title><![CDATA[visualyze.it]]></title>
   <link href="http://visualyze-it.github.com/atom.xml" rel="self"/>
   <link href="http://visualyze-it.github.com/"/>
-  <updated>2012-04-02T12:36:24+10:00</updated>
+  <updated>2012-04-02T13:35:39+10:00</updated>
   <id>http://visualyze-it.github.com/</id>
   <author>
     <name><![CDATA[visualyze.it]]></name>
@@ -23,32 +23,34 @@ ended with a discussion of this figure showing the deep seasonal discounting
 patterns at Dolce and Gabbana.</p>
 
 <p><a href="http://visualyze-it.github.com/images/2012-03-15/dolce_gabbana_all_stock_discounting.png">
-<img src="http://visualyze-it.github.com/images/2012-03-15/dolce_gabbana_all_stock_discounting.png" title="&#34;Dolce & Gabanna - All Stock - Discounting&#34;" alt="&#34;Dolce & Gabanna - All Stock - Discounting&#34;">
+<img src="http://visualyze-it.github.com/images/2012-03-15/dolce_gabbana_all_stock_discounting.png" title="&#34;Dolce & Gabbana - All Stock - Discounting&#34;" alt="&#34;Dolce & Gabbana - All Stock - Discounting&#34;">
 </a></p>
 
 <p><span class='pullquote-right' data-pullquote='When is new inventory introduced?   Is discounted stock cycled back into non-sale inventory?'>
 While this figure tells a in interesting story, it also begs more questions;
 When is new inventory introduced?   Is discounted stock cycled back into non-sale inventory?
-Our data is deep&#8230; we should be able to answer these questions.</p>
+Our data is deep&#8230; we can answer these questions.</p>
 
 <p>To get a really complete picture of the inventory turnover we need to see the <em>flow</em> of
 inventory as it comes into stock, passes through discount stages, and eventually is discontinued.
-This requires a flow diagram, a variation on an alluvial graph showing how stock items flow through the inventory.  Each dark band represents a step in time, and newly introduced stock funnels in at the top of the chart.  Full priced inventory is shown in blue, and sale items are grouped into streams below that.
+This requires a flow diagram, a variation on an alluvial graph, which shows how stock items flow through the inventory.  Each dark band represents a measurement date.  Newly introduced stock funnels in at the top of the chart.  Full priced inventory is shown in blue, and sale items are grouped into streams below that, with pipes showing the flow of stock items between them.
 </span></p>
 
+<p>Here&#8217;s the Dolce and Gabbana data as a flow:</p>
+
 <p><a href="http://visualyze-it.github.com/images/2012-03-23/dolce_gabbana_all_stock_flow.png">
-<img src="http://visualyze-it.github.com/images/2012-03-23/dolce_gabbana_all_stock_flow.png" title="&#34;Dolce & Gabanna - All Stock - Flow&#34;" alt="&#34;Dolce & Gabanna - All Stock - Flow&#34;">
+<img src="http://visualyze-it.github.com/images/2012-03-23/dolce_gabbana_all_stock_flow.png" title="&#34;Dolce & Gabbana - All Stock - Flow&#34;" alt="&#34;Dolce & Gabbana - All Stock - Flow&#34;">
 </a></p>
 
-<p>What is really clear now is that there is very little flow from the sale inventory back into the full price inventory - a small exception is visible in the week of 16 December, but generally the sale items are further discounted until they are eliminated entirely.</p>
+<p>It is really clear now is that there is very little flow from the sale inventory back into the full price inventory - a small exception is visible in the week of 16 December, but generally sale items are further discounted until they are eliminated entirely.</p>
 
-<h1>Comparing Patterns Between Merchants</h1>
+<h1>Comparing Merchant Patterns</h1>
 
 <p>We&#8217;ve already indicated that we believe
-Dolce &amp; Gabanna have an atypically
+Dolce and Gabbana have an atypically
 extreme inventory turnover pattern.
 We can explore this directly using flow diagrams.
-Consider the following major merchants&#8230;</p>
+Consider the following major merchants:</p>
 
 <h2>Vince</h2>
 
@@ -56,10 +58,11 @@ Consider the following major merchants&#8230;</p>
 <img src="http://visualyze-it.github.com/images/2012-03-23/vince_inventory_flow.png" title="&#34;Vince - Inventory Flow&#34;" alt="&#34;Vince - Inventory Flow&#34;">
 </a></p>
 
-<p>Vince makes heavy use of the 60% discount range, and moves a modest amount
-of stock into the 30% band from late January onward.  There is a striking lack of
-flow back up the graph, indicating that products that are discounted are never
-returned to full-price inventory.</p>
+<p>You can see here that Vince makes heaviest use of the 60% discount range, and
+fairly deep discounting from late January onward.  One interesting aspect
+here is that there is absolutely no flow back up the levels.  Once discounted,
+Vince products never return to a higher price category and <em>never</em> return to full-price
+inventory.</p>
 
 <h2>Park and Bond</h2>
 
@@ -67,10 +70,11 @@ returned to full-price inventory.</p>
 <img src="http://visualyze-it.github.com/images/2012-03-23/park_and_bond_inventory_flow.png" title="&#34;Park_And_Bond - Inventory Flow&#34;" alt="&#34;Park_And_Bond - Inventory Flow&#34;">
 </a></p>
 
-<p>Park and Bond put a significant amount of stock into 70% band prior to Christmas.
-We can see a fair amount of movement between discount bands, and a small percentage
-of stock is eventually returned to full price.  By mid-February no discounted
-stock remains.</p>
+<p>Park and Bond moves significant stock into 70% band prior to Christmas, with deeper
+cuts in mid-December.  Unlike Vince and Dolce and Gabbana, some stock does move back up
+the scale, and a small percent of discounted stock eventually returns to full price.  However
+most of the seasonally discounted items eventually end up heavily discounted in February
+and discontinued.  By mid-February no discounted stock remains.</p>
 
 <h2>Williams Sonoma</h2>
 
@@ -78,11 +82,10 @@ stock remains.</p>
 <img src="http://visualyze-it.github.com/images/2012-03-23/williams_sonoma_inventory_flow.png" title="&#34;Williams_Sonoma - Inventory Flow&#34;" alt="&#34;Williams_Sonoma - Inventory Flow&#34;">
 </a></p>
 
-<p>Unlike the merchants above, Williams Sonoma carries principly kitchenware and food items.
-Interestingly the flow diagram for Williams Sonoma doesn&#8217;t reveal a strong seasonal
-discount cycle.  Instead it shows a sustained cycle of items through discount bands
-and back into full-priced inventory.  This strongly suggests discounting is
-used to stimulate sales rather than to clear inventory.</p>
+<p>Unlike the merchants above, Williams Sonoma is primarily kitchen-ware and food items.
+The flow diagram for Williams Sonoma doesn&#8217;t reveal a strong seasonal discount cycle, but rather a sustained exchange of items through discount bands
+and back into full-priced inventory.  This strongly suggests this merchant is using discounting
+to stimulate sales rather than to turn over inventory.</p>
 ]]></content>
   </entry>
   
