@@ -2,14 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://visualyze-it.github.com/blog/2012/03/15/merchandising-intelligence/</loc>
-        <lastmod>2012-03-17T11:15:32+10:00</lastmod>
+        <lastmod>2012-03-23T12:34:57+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://visualyze-it.github.com/blog/2012/03/23/visualizing-inventory-flow/</loc>
+        <lastmod>2012-04-02T12:35:26+10:00</lastmod>
     </url>
     <url>
         <loc>http://visualyze-it.github.com/blog/archives/</loc>
-        <lastmod>2012-03-17T11:15:32+10:00</lastmod>
+        <lastmod>2012-04-02T12:35:26+10:00</lastmod>
     </url>
     <url>
         <loc>http://visualyze-it.github.com/</loc>
-        <lastmod>2012-03-17T11:15:32+10:00</lastmod>
+        <lastmod>2012-04-02T12:35:26+10:00</lastmod>
     </url>
 </urlset>
